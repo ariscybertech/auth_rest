@@ -8,7 +8,7 @@ import 'login_screen.dart';
 
 class IntroPage extends StatefulWidget {
   final UserRepository userRepository;
-  IntroPage({Key? key, required this.userRepository})
+  IntroPage({Key key,  this.userRepository})
       : super(key: key);
   
   @override

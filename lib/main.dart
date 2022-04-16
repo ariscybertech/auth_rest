@@ -44,7 +44,7 @@ void main() {
 class MyApp extends StatelessWidget {
   final UserRepository userRepository;
 
-  MyApp({Key? key, required this.userRepository}) : super(key: key);
+  MyApp({Key key,  this.userRepository}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

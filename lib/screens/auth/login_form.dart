@@ -8,7 +8,7 @@ import 'package:authwithrest/style/theme.dart' as Style;
 
 class LoginForm extends StatefulWidget {
   final UserRepository userRepository;
-  LoginForm({Key? key, required this.userRepository})
+  LoginForm({Key key,  this.userRepository})
       : assert(userRepository != null),
         super(key: key);
 
